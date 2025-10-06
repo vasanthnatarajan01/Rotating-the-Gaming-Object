@@ -37,7 +37,28 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
+public class jm : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 70 * Time.deltaTime);
+    }
+}
+```
 ## Output:
+<img width="1034" height="474" alt="Screenshot 2025-10-06 081359" src="https://github.com/user-attachments/assets/d3b9d83e-5f0e-4d94-ad0a-4aca63cd19fe" />
 
 ## Result:
+The 3D application for rotating the gaming objects in unity is executed sucessfully.
